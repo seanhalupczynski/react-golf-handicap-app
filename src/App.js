@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Welcome from './pages/Welcome';
 import GolfCourse from './pages/GolfCourse';
 import PlayerProfile from './pages/PlayerProfile';
-import NavBar from './components/NavBar';
+import Header from './components/Header';
 
 function App() {
   return (
@@ -28,7 +28,7 @@ export default () => {
 
   return(
     <div>
-      <NavBar></NavBar>
+      <Header></Header>
       <App></App>
     </div>
   )
