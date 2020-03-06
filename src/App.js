@@ -5,6 +5,7 @@ import Welcome from './pages/Welcome';
 import GolfCourse from './pages/GolfCourse';
 import PlayerProfile from './pages/PlayerProfile';
 import Header from './components/Header';
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ export default () => {
     <div>
       <Header></Header>
       <App></App>
+      <Footer></Footer>
     </div>
   )
 
